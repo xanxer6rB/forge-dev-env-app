@@ -4,21 +4,11 @@ services:
     build: ./docker/intellij-ce
     ports:
      - "3003:3000"
-    networks:
-     - "dev-net"
- #   volumes:
- #    - .:/code
   mse:
     build: ./docker/mse
     ports:
-      - "3004:3000"
-    networks:
-     - "dev-net"      
+      - "3004:3000"      
   tiled:
     build: "./docker/tiled"
     ports:
       - "3005:3000"
-    networks:
-     - "dev-net"
-networks:
-    dev-net:
