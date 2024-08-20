@@ -1,5 +1,5 @@
 # forge-dev-env-app
-Dockerized apps for a forge developement environment
+Dockerized apps for a forge developement environment using KasmVNC as a base image.
 
 First you will need to download intellij-ce from their website and store it in the intellij-ce folder with the Dockerfile.
 
