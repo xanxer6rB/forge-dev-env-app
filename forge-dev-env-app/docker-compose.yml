@@ -1,11 +1,11 @@
 #version: '3'
 services:
   intellij-ce:
-    build: ./docker/intellij-ce
+    build: "./docker/intellij-ce"
     ports:
      - "3003:3000"
   mse:
-    build: ./docker/mse
+    build: "./docker/mse"
     ports:
       - "3004:3000"      
   tiled:
