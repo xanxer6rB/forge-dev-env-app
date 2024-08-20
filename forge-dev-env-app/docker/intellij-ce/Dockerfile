@@ -13,8 +13,7 @@ RUN \
     && apt-get clean  \
     && rm -rf /var/lib/apt/lists/* \ 
     && rm -rf /tmp/*  \
-    && rm -rf /var/cache/apk/* \
-    && rm /config/intellij-ce.sh
+    && rm -rf /var/cache/apk/*
 
 ##############################################
 # Install IntelliJ Community Edition IDEA
